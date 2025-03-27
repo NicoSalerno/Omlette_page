@@ -1,0 +1,81 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Mantiene il contenuto centrato verticalmente */
+}
+
+/* Contenitore principale per centrare la pagina */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    max-height: 2500px;
+    padding: 20px;
+}
+
+/* Box principale della ricetta */
+.page-container {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Stile del contenitore rosa */
+.pink-container {
+    background-color: hsl(330, 100%, 98%);
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 700px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Immagine centrata */
+.image-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Titoli minori */
+.minor-titles {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.nutrients{
+    display: inline-flex;
+    color: hsl(14, 45%, 36%);
+    justify-content: space-between;
+}
+
+li{
+    padding: 10px;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+hr.new1 {
+    border-top: 0.5px solid;
+}
+
+
